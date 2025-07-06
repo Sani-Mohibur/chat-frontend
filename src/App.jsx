@@ -4,7 +4,7 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 
-const socket = io("http://localhost:3000");
+const socket = io("https://chat-backend-production-35bd.up.railway.app");
 
 function App() {
   const [username, setUsername] = useState("");
