@@ -1,12 +1,38 @@
-# React + Vite
+# 📨 Chat Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the **frontend interface** of a real-time chat application built using React and Tailwind CSS. It connects to a Socket.IO backend to send and receive live chat messages.
 
-Currently, two official plugins are available:
+> ⚠️ This is the frontend only.  
+> To view the backend server, visit the [chat-backend repository](https://github.com/Sani-Mohibur/chat-backend).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔄 Real-time messaging using WebSockets (Socket.IO)
+- 💾 Messages displayed from backend-stored JSON file
+- 📱 Responsive UI with modern Tailwind CSS styling
+- ➕ Includes message input and auto-updating chat feed
+- ✅ Message send confirmation with clean UX
+
+---
+
+## 🛠️ Built With
+
+- **React** – Frontend library for building UI components  
+- **Vite** – Fast build tool and development server  
+- **Tailwind CSS v4.1** – Utility-first CSS framework (new config-less theming)  
+- **Socket.IO Client** – Enables real-time communication with backend  
+
+---
+
+## 🚀 Live Demo
+
+🌐 [Click here to open the live frontend](https://chat-frontend-self-seven.vercel.app)
+
+---
+
+## 🧑‍💻 Author
+
+**Mohibur Rahman Sani**  
+GitHub: [@Sani-Mohibur](https://github.com/Sani-Mohibur)
