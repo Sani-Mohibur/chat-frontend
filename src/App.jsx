@@ -151,7 +151,6 @@ function App() {
 
             {/*Three-dot button*/}
             <button
-              disabled
               onClick={() => toggleMenu(msg.id)}
               className="absolute top-2 right-2 text-gray-500 hover:text-gray-700"
             >
