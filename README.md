@@ -1,9 +1,17 @@
-# 📨 Chat Frontend
+# 📨 Real-Time Chat Application (Frontend)
 
 This is the **frontend interface** of a real-time chat application built using React and Tailwind CSS. It connects to a Socket.IO backend to send and receive live chat messages.
 
-> ⚠️ This is the frontend only.  
-> To view the backend server, visit the [chat-backend repository](https://github.com/Sani-Mohibur/chat-backend).
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socket.io&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+
+---
+
+> **⚠️ Important Note**  
+> This is the **frontend only**. It requires the corresponding backend server to be running. You can find the backend repository here
+> **[chat-backend](https://github.com/Sani-Mohibur/chat-backend)**
 
 ---
 
@@ -22,7 +30,7 @@ This is the **frontend interface** of a real-time chat application built using R
 - **React** – Frontend library for building UI components  
 - **Vite** – Fast build tool and development server  
 - **Tailwind CSS v4.1** – Utility-first CSS framework (new config-less theming)  
-- **Socket.IO Client** – Enables real-time communication with backend  
+- **Socket.IO Client** – Enables real-time communication with backend
 
 ---
 
